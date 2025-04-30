@@ -1,0 +1,14 @@
+[project]
+name = "calc-split"
+version = "0.1.0"
+description = "A simple command line tool to calculate how much each person owes in a group of friends."
+authors = [
+    {name = "Andrew January", email = "andrewjanuary@gmail.com"},
+]
+dependencies = ["pulp>=3.1.1"]
+requires-python = "==3.12.*"
+readme = "README.md"
+
+
+[tool.pdm]
+distribution = false
